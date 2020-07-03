@@ -1,0 +1,107 @@
+[
+  {
+    "id": "5ea085cb70569401e62991ab",
+    "name": "Test",
+    "hourlyRate": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "costRate": null,
+    "clientId": "",
+    "client": null,
+    "workspaceId": "5e2feaa6b128ac31f2589da3",
+    "billable": true,
+    "memberships": [
+      {
+        "userId": "5e2feaa6b128ac31f2589da2",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea085cb70569401e62991ab",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "color": "#673AB7",
+    "estimate": {
+      "estimate": "PT0S",
+      "type": "AUTO"
+    },
+    "archived": false,
+    "tasks": [],
+    "note": "",
+    "duration": "PT8M2S",
+    "favorite": false,
+    "template": false,
+    "public": true
+  },
+  {
+    "id": "5ea085daa910336f44e665fe",
+    "name": "TestProject",
+    "hourlyRate": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "costRate": null,
+    "clientId": "",
+    "client": null,
+    "workspaceId": "5e2feaa6b128ac31f2589da3",
+    "billable": true,
+    "memberships": [
+      {
+        "userId": "5d4451b5d278ae57b51d7dd0",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea085daa910336f44e665fe",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "color": "#795548",
+    "estimate": {
+      "estimate": "PT0S",
+      "type": "AUTO"
+    },
+    "archived": false,
+    "tasks": [],
+    "note": "",
+    "duration": "PT12H20M57S",
+    "favorite": false,
+    "template": false,
+    "public": true
+  },
+  {
+    "id": "5ea0880fddf33756a4a13d06",
+    "name": "Nikita",
+    "hourlyRate": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "costRate": null,
+    "clientId": "",
+    "client": null,
+    "workspaceId": "5e2feaa6b128ac31f2589da3",
+    "billable": true,
+    "memberships": [
+      {
+        "userId": "5e2feaa6b128ac31f2589da2",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea0880fddf33756a4a13d06",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "color": "#4CAF50",
+    "estimate": {
+      "estimate": "PT0S",
+      "type": "AUTO"
+    },
+    "archived": false,
+    "tasks": [],
+    "note": "",
+    "duration": "PT20H6M8S",
+    "favorite": false,
+    "template": false,
+    "public": true
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "5d4451b5d278ae57b51d7dd0",
+    "email": "kurinartyr@gmail.com",
+    "name": "Kurinartyr",
+    "memberships": [
+      {
+        "userId": "5d4451b5d278ae57b51d7dd0",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5e2feaa6b128ac31f2589da3",
+        "membershipType": "WORKSPACE",
+        "membershipStatus": "ACTIVE"
+      },
+      {
+        "userId": "5d4451b5d278ae57b51d7dd0",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5e2feaa6b128ac31f2589da4",
+        "membershipType": "USERGROUP",
+        "membershipStatus": "ACTIVE"
+      },
+      {
+        "userId": "5d4451b5d278ae57b51d7dd0",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea085daa910336f44e665fe",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "profilePicture": "https://s3.eu-central-1.amazonaws.com/clockify/no-user-image.png",
+    "activeWorkspace": "5b5cbf06b07987357c56af79",
+    "defaultWorkspace": "5b5cbf06b07987357c56af79",
+    "settings": {
+      "weekStart": "MONDAY",
+      "timeZone": "Europe/Minsk",
+      "timeFormat": "HOUR24",
+      "dateFormat": "MM/DD/YYYY",
+      "sendNewsletter": false,
+      "weeklyUpdates": false,
+      "longRunning": false,
+      "timeTrackingManual": false,
+      "summaryReportSettings": {
+        "group": "PROJECT",
+        "subgroup": "TIME_ENTRY"
+      },
+      "isCompactViewOn": false,
+      "dashboardSelection": "TEAM",
+      "dashboardViewType": "PROJECT",
+      "dashboardPinToTop": false,
+      "projectListCollapse": 50,
+      "collapseAllProjectLists": false,
+      "groupSimilarEntriesDisabled": false,
+      "myStartOfDay": "09:00"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "5e2feaa6b128ac31f2589da2",
+    "email": "nikipusik313@gmail.com",
+    "name": "Nikita Sufranovich",
+    "memberships": [
+      {
+        "userId": "5e2feaa6b128ac31f2589da2",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5e2feaa6b128ac31f2589da3",
+        "membershipType": "WORKSPACE",
+        "membershipStatus": "ACTIVE"
+      },
+      {
+        "userId": "5e2feaa6b128ac31f2589da2",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea085cb70569401e62991ab",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      },
+      {
+        "userId": "5e2feaa6b128ac31f2589da2",
+        "hourlyRate": null,
+        "costRate": null,
+        "targetId": "5ea0880fddf33756a4a13d06",
+        "membershipType": "PROJECT",
+        "membershipStatus": "ACTIVE"
+      }
+    ],
+    "profilePicture": "https://s3.eu-central-1.amazonaws.com/clockify/no-user-image.png",
+    "activeWorkspace": "5e2feaa6b128ac31f2589da3",
+    "defaultWorkspace": "5e2feaa6b128ac31f2589da3",
+    "settings": {
+      "weekStart": "MONDAY",
+      "timeZone": "Europe/Minsk",
+      "timeFormat": "HOUR12",
+      "dateFormat": "MM/DD/YYYY",
+      "sendNewsletter": false,
+      "weeklyUpdates": false,
+      "longRunning": false,
+      "timeTrackingManual": false,
+      "summaryReportSettings": {
+        "group": "PROJECT",
+        "subgroup": "CLIENT"
+      },
+      "isCompactViewOn": false,
+      "dashboardSelection": "TEAM",
+      "dashboardViewType": "PROJECT",
+      "dashboardPinToTop": false,
+      "projectListCollapse": 50,
+      "collapseAllProjectLists": false,
+      "groupSimilarEntriesDisabled": false,
+      "myStartOfDay": "09:00"
+    },
+    "status": "ACTIVE"
+  }
+]
