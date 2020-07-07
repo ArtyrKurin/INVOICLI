@@ -1,14 +1,12 @@
 import json
 import re
-
-from flask import jsonify
 import requests
 from clockify.clockify import Clockify
 from flask import Flask
-from flask_restful import Resource, Api
+import flask_restful
 
 app = Flask(__name__)
-api = Api(app)
+api = flask_restful.Api(app)
 
 clockify_server = Clockify("XYy/HngZVC0fWaE0")
 headers = {'content-type': "application/json", "X-Api-Key": "XYy/HngZVC0fWaE0"}
@@ -17,7 +15,7 @@ params = {'start': '2020-04-1T05:15:32.998Z', 'end': '2020-04-30T05:15:32.998Z'}
 url = "https://clockify-response.p.rapidapi.com/"
 
 
-class User(Resource):
+class User(flask_restful.Resource):
     def get(self):
         API_URL_PROJECT = "https://api.clockify.me/api/v1/workspaces/5e2feaa6b128ac31f2589da3/users"
         result_request = requests.get(API_URL_PROJECT, headers=headers, params=params)
@@ -45,7 +43,7 @@ class User(Resource):
         return response
 
 
-class Project(Resource):
+class Project(flask_restful.Resource):
     def get(self):
         API_URL_PROJECT = "https://api.clockify.me/api/v1/workspaces/5e2feaa6b128ac31f2589da3/projects"
         result_request = requests.get(API_URL_PROJECT, headers=headers, params=params)
@@ -66,7 +64,7 @@ class Project(Resource):
         return result
 
 
-class TimeEntry(Resource):
+class TimeEntry(flask_restful.Resource):
     def get(self):
         time_entry = clockify_server.get_all_time_entry_user('5e2feaa6b128ac31f2589da3', '5d4451b5d278ae57b51d7dd0')
 
@@ -74,7 +72,7 @@ class TimeEntry(Resource):
         # result_request = requests.get(API_URL_PROJECT, headers=headers, params=params)
         # print(result_request)
         # List = json.loads(f.text)
-        result = []
+        result = [time_entry]
         for fp in time_entry:
             formatted = dict()
 
@@ -85,9 +83,8 @@ class TimeEntry(Resource):
                 formatted['duration'] = fd['duration']
             formatted['memberships'] = fp['memberships']
             formatted['hourlyRate'] = fp["hourlyRate"]
-            formatted['duration'] = formatting_time
+            formatted['duration'] = formatting_time2
 
-            result.append(formatted)
         return result
 
 
