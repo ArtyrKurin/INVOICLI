@@ -4,10 +4,10 @@ import requests
 # from clockify.clockify import Clockify
 
 from flask import Flask, jsonify
-import flask_restful
+
 
 app = Flask(__name__)
-api = flask_restful.Api(app)
+
 
 # clockify_server = Clockify("XYy/HngZVC0fWaE0")
 # headers = {'content-type': "application/json", "X-Api-Key": "XYy/HngZVC0fWaE0"}
